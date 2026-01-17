@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: tutorial-extpj
+  project: passenger-counter-bus
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tutorial-extpj/passenger-counter-bus/dataset/0
