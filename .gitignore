@@ -1,0 +1,11 @@
+**/.*
+!/.gitignore
+
+/runs/*
+!/runs/detect/
+/runs/detect/*
+!/runs/detect/train4/
+/runs/detect/train4/*
+!/runs/detect/train4/weights/
+/runs/detect/train4/weights/*
+!/runs/detect/train4/weights/best.pt
